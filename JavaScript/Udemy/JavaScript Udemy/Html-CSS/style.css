@@ -1,0 +1,57 @@
+*{/* select all the elements in html */
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body{
+    background-color: lightblue;
+    font-family: Arial;
+    font-size: 20px;
+    padding : 50px;
+}
+
+h1{
+    font-size : 35px;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-bottom: 25px;
+    text-align : center;
+}
+
+p{ /* p -> select all paragraph */
+    margin-bottom : 20px;
+}
+
+/* . -> class*/
+.first{
+    color : red;
+}
+
+/* # -> id */
+#your-name{
+    background-color:lightgreen;
+    border : 5px solid lightred;
+    width : 400 px;
+    padding : 25px;
+    margin-top : 30px;
+}
+
+input, button { /* bisa select 2 element */
+    padding : 10px;
+    font-size : 16px;
+}
+
+a {
+    background-color : yellow;
+}
+
+#your-name h2{/* ngambil h2 di id your-name */
+    color : olivedrab;
+}
+
+#course-image{
+    width : 300px;
+}

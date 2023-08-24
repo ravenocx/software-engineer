@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Front End Tutorial">
+    <meta name="keywords" content="HTML , CSS, JavaScript , Frond, End">
+    <meta name="author" content="Haris">
+    <!--<meta http-equiv="refresh" content="10"> (Auto Refresh) -->
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0"> <!-- Buat menyesuaikan scale di device-->
+    <meta charset="UTF-8">
+
+    <title> Front End Developer </title>
+</head>
+
+<body style="background-color: lightblue">
+    <h1>Ini judul</h1>
+    <hr> <!--Horizontal ruler (Garis Lurus)-->
+
+    <p>Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets dan bahasa scripting seperti JavaScript dan VBScript.
+        Source : <a href = "https://id.wikipedia.org/wiki/HTML" target=_self title="This takes you to wikipedia website"> Wikipedia1 </a> <!-- Gak new tab-->
+        Source : <a href = "page 2.html" target=_blank title="This takes you to Page 2"> Page 2 </a> <!-- Open new tab-->
+        Email me : <a href = "mailto:mharis830174@gmail.com" target=_blank title="This takes you to sending an email"> Email </a> <!-- Open new tab-->
+        
+        <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> <!-- Img link -->
+        <img src="/images/html.png" height="250" alt="This is picture of html" title="html pict" > 
+        </a>
+    <!-- Height (Tinggi) and Width (lebar) are in pixels,height and width attributes are scales proportionately. 
+         Jadi Ketika set height saja maka width nya akan menyesuaikan, begitupun sebaliknya
+    -->
+    </p>
+    <br> <!-- Untuk Line break, spasi 1 baris-->
+
+    <p style="background-color:#ffffff ; color:rgb(232, 19, 19)" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nesciunt eos facere ullam libero ad rem deserunt corrupti officiis quis tempora esse architecto et tempore dignissimos cumque, quae dolor harum.
+
+        
+    </p>
+
+    <img src ="https://kinsta.com/wp-content/uploads/2021/11/Untitled-54.png"> <!-- Import Img dari website online -->
+
+    <p>
+        <audio controls autoplay muted loop>
+        <source src="song.mp3">
+        <source src="song.wav">   <!-- Backup  file, just incase the browser doesn't support the format file-->
+        </audio>
+        <!-- Controls = buat control menit, suara -->
+        
+    </p>
+
+    <p>
+        <video controls autoplay muted loop width="500">
+            <source src ="clip.mp4">
+            <source src ="clip.WebM">
+        </video>
+    </p>
+
+    <p>This is normal Text</p>
+    <p>This is <b>bold</b> Text</p>
+    <p>This is <i>italic</i> Text</p>
+    <p>This is <big>big</big> Text</p>
+    <p>This is <small>small</small> Text</p>
+    <p>This is <sub>subsript</sub> Text</p>
+    <p>This is <sup>supsript</sup> Text</p>
+    <p>This is <ins>inserted</ins> Text</p>
+    <p>This is <del>deleted</del> Text</p>
+    <p>This is <mark>marked</mark> Text</p>
+
+    <h2 style = "color: rgb(247, 131, 7)">Unordered list</h2>
+    <ul>
+        <li> Pizza
+            <ul>
+                <li> Mushroom </li>
+                <li> Pepperoni </li>
+                <li> Cheese </li>
+            </ul>
+        </li>
+        <li> Fried Chicken </li>
+        <li> Cola </li>
+        <li> Spagetthi </li>
+    </ul>
+
+    <h2 style ="color: #ffffff">Ordered List</h2>
+    <ol type="I">
+        <li>Didihkan air</li>
+        <li>Buka bungkus indomie</li>
+        <li>Buka bumbu indomie</li>
+        <li>Tuangkan bumbu indomie ke dalam piring</li>
+        <li>Tunggu mie hingga matang lalu tiriskan ke piring</li>
+        <li>Indomie siap dihidangkan</li>
+    </ol>
+
+    <h2>Description List</h2>
+    <dl>
+        <dt> HTML </dt>
+        <dd> This adds structure to a webpage</dd>
+        <dt> CSS </dt>
+        <dd> This adds style to a webpage</dd>
+        <dt> JavaScript</dt>
+        <dd> This adds functionality to a webpage</dd>
+
+    </dl>
+
+    <h3> Store Hours </h3>
+
+    <table bgcolor="black" width="700"> <!-- Width in table = Jumlah row x width column (Biar Proportional)-->
+        <tr bgcolor="grey" >
+            <th width ="100" > Sunday </th>
+            <th width ="100"> Monday </th>
+            <th width ="100"> Tuesday </th>
+            <th width ="100"> Wednesday </th>
+            <th width ="100" > Thursday </th>
+            <th width ="100" > Friday </th>
+            <th width ="100"> Saturday </th>
+        </tr>
+
+        <tr bgcolor="lightgrey" align="center">
+            <td> Closed </td>
+            <td> 09:00 - 17:00 </td>
+            <td> 09:00 - 17:00 </td>
+            <td> 09:00 - 17:00 </td>
+            <td> 09:00 - 17:00 </td>
+            <td> 09:00 - 17:00 </td>
+            <td> Closed </td>
+        </tr>
+
+    </table>
+
+    <p>Lorem ipsum dolor sit amet, <span style="color:rgb(247, 131, 7)">consectetur adipisicing elit</span>. Necessitatibus illo perferendis optio omnis in nihil quos soluta alias odit fuga? Libero, rerum sint placeat eligendi iusto culpa quis voluptas totam?</p>
+    <!--Span cangkupannya kecil dibanding div-->
+    <div style="color:red; background-color:white">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga quidem maiores enim? Corporis temporibus qui exercitationem quibusdam sed laboriosam, dolore id aliquid sit. Assumenda quas ut reiciendis provident quibusdam?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quod sunt sint unde et aperiam amet odit! Temporibus natus reiciendis commodi quisquam, aliquid officiis in! Perspiciatis possimus blanditiis aperiam obcaecati.</p>
+    </div>
+
+</body>
+
+
+
+
+</html>
