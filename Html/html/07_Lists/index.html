@@ -9,14 +9,9 @@
 
   <body>
     <h2 style="color: rgb(247, 131, 7)">Unordered list</h2>
-    <ul>
+    <ul class = "ul-li">
       <li>
         Pizza
-        <ul>
-          <li>Mushroom</li>
-          <li>Pepperoni</li>
-          <li>Cheese</li>
-        </ul>
       </li>
       <li>Fried Chicken</li>
       <li>Cola</li>
@@ -43,5 +38,13 @@
       <dd>This adds functionality to a webpage</dd>
       <!--dt -> desc term | dd -> desc detail-->
     </dl>
+
+    <style>
+      .ul-li{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: red;
+      }
+    </style>
   </body>
 </html>
